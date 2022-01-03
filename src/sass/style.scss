@@ -1,0 +1,34 @@
+@import 'base/variables';
+* {
+    font-family: 'Sitka Banner', sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    .text-decor {
+        h1, h2 {
+            font-family: 'Bickham Script Three', sans-serif;
+            font-weight: lighter;
+        }
+    }
+}
+body {
+    padding-right: 35px;
+}
+
+
+
+
+// @import 'elements/buttons';
+
+
+@import 'blocks/header';
+
+
+// @import 'blocks/page_catalog';
+
+
+// @import 'media/info_m';
+
+
+// @import 'import_css/swiper';

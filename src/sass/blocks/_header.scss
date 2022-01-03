@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    &__wrapper {
+        width: 100%;
+    }
+    &__name {
+        margin-top: 3vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        h1 {
+            font-size: 5vw;
+            line-height: 0.71;
+            color: $main-color;
+        }
+    }
+    &__profession {
+        display: flex;
+        margin-top: 2vw;
+        width: 100%;
+        
+    }
+    &__line-before {
+        width: 90%;
+        height: 0.1vw;
+        background: $main-color;
+    }
+    &__line-after {
+        min-width: 6%;
+        height: 0.1vw;
+        background: $main-color;
+    }
+
+    &__profession-text {
+        width: auto;
+        font-size: 5vw;
+        line-height: 0;
+        text-align: left;
+        color: $main-color;
+    }
+    &__motto {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-size: 5vw;
+            color: $main-color;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "Bickham Script Three";
+	src: url("../fonts/Bickham Script Three.eot");
+	src: url("../fonts/Bickham Script Three.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Bickham Script Three.woff2") format("woff2"),
+		url("../fonts/Bickham Script Three.woff") format("woff"),
+		url("../fonts/Bickham Script Three.ttf") format("truetype"),
+		url("../fonts/Bickham Script Three.svg#Bickham Script Three") format("svg");
+	} 
+
+@font-face {
+	font-family: "Sitka Banner";
+	src: url("../fonts/Sitka Banner.eot");
+	src: url("../fonts/Sitka Banner.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Sitka Banner.woff2") format("woff2"),
+		url("../fonts/Sitka Banner.woff") format("woff"),
+		url("../fonts/Sitka Banner.ttf") format("truetype"),
+		url("../fonts/Sitka Banner.svg#Sitka Banner") format("svg");
+} 
