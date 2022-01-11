@@ -1,34 +1,45 @@
 @import 'base/variables';
 * {
-    font-family: 'Sitka Banner', sans-serif;
+    font-family: 'Sitka Banner';
     font-weight: lighter;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    .text-decor {
-        h1, h2 {
+    .text-decor, .cards__mini-title {
+        h1, h2, h3, h4 {
             font-family: 'Bickham Script Three', sans-serif;
             font-weight: lighter;
         }
     }
 }
-body {
-    padding-right: 35px;
+
+
+.gallery {
+    margin-top: 5vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    &__wrapper {
+        width: 98%;
+
+    }
+
 }
 
 
-
-
-// @import 'elements/buttons';
+@import 'elements/cards';
+@import 'elements/viewer';
 
 
 @import 'blocks/header';
+@import 'blocks/contact';
 
 
 // @import 'blocks/page_catalog';
 
 
-// @import 'media/info_m';
+@import 'media/cards_m';
+@import 'media/viewer_m';
 
 
 // @import 'import_css/swiper';

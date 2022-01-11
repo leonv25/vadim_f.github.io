@@ -10,6 +10,10 @@ window.addEventListener('DOMContentLoaded', function() {
 
     //working script
 
+    //viewer for img
+    let viewer_imgs = require('./parts/viewer');
+        viewer_imgs('.gallery', '.cards__background-img_gallery');
+
     
     
     

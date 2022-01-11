@@ -1,0 +1,125 @@
+.cards {
+    
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__card {
+        width: 31%;
+        height: 41vw;
+        padding: 0.5%;
+        box-sizing: content-box;
+        position: relative;
+    }
+    &__card_width {
+        width: 95%;
+        height: 49.7vw;
+    }
+
+    &__mini-title {
+        width: 95%;
+        position: absolute;
+        top: -2.3vw;
+        display: flex;
+        h4 {
+            font-size: 3vw;
+            color: $main-color;
+            white-space: nowrap;
+        }
+    }
+    &__line-before {
+        width: 100%;
+        border-bottom:1px solid $main-color;
+        margin-bottom: 1.2vw;
+
+    }
+
+    &__wrapper-card {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__background-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1px;
+        h3 {
+            transform: rotate(-90deg) translateX(-50%);
+            text-align: center;
+            line-height: 1;
+            color: $main-color;
+            font-size: 3vw;
+            div {
+                margin: 0 auto 0 auto;
+                width: 50%;
+                height: 0;
+                border-bottom:1px solid $main-color;
+                &:first-child {
+                    margin-bottom: 1vw;
+                }
+                &:last-child {
+                    margin-top: 1vw;
+                }
+            }
+            
+            
+        }
+    }
+    
+    
+    &__block {
+        z-index: 1;
+        position: absolute;
+        background: silver;
+        width: 90%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &__logo {
+        img {
+            width: 3vw;
+        }
+    }
+    &__txt {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        height: 44%;
+        text-align: center;
+        overflow: hidden;
+        a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__wrapper-btn {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 0.5vw;
+    }
+    .button_card {
+        width: 40%;
+        height: 100%;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
